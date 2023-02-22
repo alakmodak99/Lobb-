@@ -1,0 +1,226 @@
+.Container,
+.FullWidthContainer {
+  width: 100%;
+  height: 99vh;
+  padding: 10px;
+  max-width: 400px;
+  margin: auto;
+  align-items: center;
+  position: relative;
+}
+.CrossBtn {
+  position: fixed;
+  top: 3vh;
+  right: 38vw;
+  left: 92%;
+  top: 4%;
+  height: 30px;
+  width: 30px;
+  transform: translate(-97%, -38%);
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(136, 138, 138, 0.9);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-97%, -38%);
+  -moz-transform: translate(-97%, -38%);
+  -ms-transform: translate(-97%, -38%);
+  -o-transform: translate(-97%, -38%);
+}
+.CrossBtn:hover{
+color: rgba(233, 238, 238, 0.8);
+  background-color: black;
+}
+.Loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    position: fixed;
+}
+.Date {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: rgb(111, 113, 113);
+}
+.topLogo {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.userName {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(177, 179, 180);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.ThumbnailImage,
+.MainImage {
+  width: 100%;
+  height: 50vh;
+  border-radius: 30px 30px 0 0;
+  object-fit: cover;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+}
+.MainImage {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 60vh;
+  margin-top: 20px;
+}
+.ThumbnailContainer,
+.UpdateThumbnailContainer {
+  height: 60vh;
+  background-color: rgb(245, 247, 248);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.UpdateThumbnailContainer {
+  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+}
+.logoImage,
+.logoImageLastContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.logoImageLastContainer {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.lastLogoContainer,
+.LastContainerLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 28px;
+}
+.LastContainerLogo {
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.lastLogoContainer > div {
+  display: flex;
+  text-align: left;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.AnimeTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+.AnimeSubTitle {
+  font-size: 12px;
+  color: rgb(118, 119, 120);
+}
+.btn,
+.btn1 {
+  padding: 7px 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: rgb(0, 119, 255);;
+  border: 1px solid rgb(0, 119, 255);
+  font-weight: 500;
+  background-color: rgb(203, 204, 208);
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.btn:hover {
+  color: rgb(203, 204, 208);
+  background-color: rgb(0, 119, 255);;
+}
+.btn1 {
+  color: rgb(203, 204, 208);
+  background-color: rgb(0, 119, 255);;
+}
+.btn1:hover {
+  color: rgb(0, 119, 255);;
+  background-color: rgb(203, 204, 208);
+  border: 1px solid rgb(0, 119, 255);;
+}
+.HideContainer {
+  display: none;
+}
+.FullWidthContainer {
+  padding: 0px;
+  overflow-y: auto;
+}
+.FullWidthContainer::-webkit-scrollbar {
+  display: none;
+}
+.FullWidthContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.BodyAnime {
+  text-align: left;
+  padding: 30px 20px 10px 20px;
+  margin: auto;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bodyMap {
+  margin-bottom: 20px;
+  color: rgb(112, 113, 114);
+}
+.LastContainer {
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(202, 204, 206, 0.5);
+  border-radius: 0 0 30px 30px;
+  -webkit-border-radius: 0 0 30px 30px;
+  -moz-border-radius: 0 0 30px 30px;
+  -ms-border-radius: 0 0 30px 30px;
+  -o-border-radius: 0 0 30px 30px;
+}
+b{
+    color: rgb(0, 0, 0, 0.9);
+}
+.UserNameLogo{
+    width: 40px;
+}

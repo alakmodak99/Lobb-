@@ -1,0 +1,14 @@
+.inputContainer {
+  width: 100%;
+}
+input {
+  width: 1000%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+label {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}

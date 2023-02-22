@@ -1,0 +1,41 @@
+.ParentContaier {
+  max-width: 400px;
+  margin: auto;
+  height: 99vh;
+  border: 1px solid rgb(113, 112, 112, 0.6);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(132, 134, 136, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.FormContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SubmitButton {
+  width: 80%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: rgb(201, 203, 204);
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.SubmitButton:hover {
+  background-color: black;
+  color: white;
+}

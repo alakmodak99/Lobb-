@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all ease-in-out 500ms;
+  -webkit-transition: all ease-in-out 500ms;
+  -moz-transition: all ease-in-out 500ms;
+  -ms-transition: all ease-in-out 500ms;
+  -o-transition: all ease-in-out 500ms;
+}
+*:focus {
+  border: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
